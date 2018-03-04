@@ -2,6 +2,17 @@
 
 Watson Conversation service combines machine learning, natural language understanding, and integrated dialog tools to create conversation flows between your apps and your users. In this lab, you will create a workspace and understand the terminology of creating a chatbot.
 
+# Before you begin
+
+To complete this workshop you will need:
+- IBM Cloud account
+
+**Creating your IBM Cloud account**
+
+1. [Sign up for an account here](https://ibm.biz/BdZFpJ)
+2. Verify your account by clicking on the link in the email sent to you
+3. Log in to your IBM Cloud account
+
 # Step 1: Designing Your Bot
 
 Building a chatbot with Watson Conversation is so easy, some developers choose to dive right into the tooling. However, with a well-thought out, well-planned chatbot, the interaction with the user can lead to a much better experience that can handle edge cases. In this section, we will design the interaction between a user, Dave, and a chatbot named HungerBot.
