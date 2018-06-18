@@ -109,7 +109,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
     ![Create intent](assets/intents.png)
 
-9.  **Click on the Entities** tab in the top menu bar. This is where you can add entities. Add the entity you wrote in Step 1. Click **Done** when finished.     
+9.  **Click back and then click on the Entities** tab in the top menu bar. This is where you can add entities. Add the entity you wrote in Step 1. Click **Done** when finished.     
 
     ![Create entity](assets/entities.png)
 
@@ -117,7 +117,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
     ![Enable System Entities](assets/systementities.png)
 
-11. **Click on the Dialog tab** in the top menu bar. Click **Create**. There are two nodes added by default. The `welcome` condition is triggered when the chatbot is initially started. This is a good place to introduce the bot and suggest actions the user can ask of this chatbot.    
+11. **Click back and then click on the Dialog tab** in the top menu bar. Click **Create**. There are two nodes added by default. The `welcome` condition is triggered when the chatbot is initially started. This is a good place to introduce the bot and suggest actions the user can ask of this chatbot.    
 
     ![Create dialog](assets/dialog.png)
 
