@@ -13,7 +13,7 @@ To complete this workshop you will need:
 2. Verify your account by clicking on the link in the email sent to you
 3. Log in to your IBM Cloud account
 
-# Step 1: Designing Your Bot
+# Step 1 (optional): Designing Your Bot
 
 Building a chatbot with Watson Assistant is so easy, some developers choose to dive right into the tooling. However, with a well-thought out, well-planned chatbot, the interaction with the user can lead to a much better experience that can handle edge cases. In this section, we will design the interaction between a user, Dave, and a chatbot named HungerBot.
 
