@@ -1,6 +1,6 @@
-# Introduction to Watson Conversation
+# Introduction to Watson Assistant
 
-Watson Conversation service combines machine learning, natural language understanding, and integrated dialog tools to create conversation flows between your apps and your users. In this lab, you will create a workspace and understand the terminology of creating a chatbot.
+Watson Assistant service combines machine learning, natural language understanding, and integrated dialog tools to create conversation flows between your apps and your users. In this lab, you will create a workspace and understand the terminology of creating a chatbot.
 
 # Before you begin
 
@@ -15,7 +15,7 @@ To complete this workshop you will need:
 
 # Step 1: Designing Your Bot
 
-Building a chatbot with Watson Conversation is so easy, some developers choose to dive right into the tooling. However, with a well-thought out, well-planned chatbot, the interaction with the user can lead to a much better experience that can handle edge cases. In this section, we will design the interaction between a user, Dave, and a chatbot named HungerBot.
+Building a chatbot with Watson Assistant is so easy, some developers choose to dive right into the tooling. However, with a well-thought out, well-planned chatbot, the interaction with the user can lead to a much better experience that can handle edge cases. In this section, we will design the interaction between a user, Dave, and a chatbot named HungerBot.
 
 A good question to ask yourself is, "Who is my user and what problem do they have?" Expand on the user's profile by determining what the user needs from this chatbot. Does the user have a need to book a reservation at a restaurant? Or an answer to a common question like "Where's the bathroom?" at a conference. Maybe a chatbot that handles tasks like turning on lights or other equipment. It might help to think of the chatbot as an automated version of an existing agent, such as a customer service agent. Look at existing processes that include repeated manual processes, which can sometimes be augmented with chatbots.
 
@@ -79,27 +79,27 @@ In the following steps, we have provided a sample restaurant chatbot that handle
 
     We could add time and number entities, however, there are some built-in system entities provided by IBM, like numbers, dates, and times, that the HungerBot will use. If you have another entity, define the additional entity in a new table.
 
-In the Dialog editor of Watson Conversation, we can now setup logic to step the user through the conversation. In the next section, we will use this design to train the Watson Conversation service.
+In the Dialog editor of Watson Assistant, we can now setup logic to step the user through the conversation. In the next section, we will use this design to train the Watson Assistant service.
 
-# Step 2: Train Watson Conversation Service
+# Step 2: Train Watson Assistant Service
 
-Now that we have designed the first dialogue between the chatbot and the user, we can train the Watson Conversation service. Sign up for an IBM Cloud account at bluemix.net. If you already have an account, sign into your account.
+Now that we have designed the first dialogue between the chatbot and the user, we can train the Watson Assistant service. Sign up for an IBM Cloud account at bluemix.net. If you already have an account, sign into your account.
 
 1.  **Click on the Catalog** link in the top-right corner of the IBM Cloud dashboard.
 
-2.  **Select the Watson Conversation** tile under the section titled Watson.
+2.  **Select the Watson Assistant** tile under the section titled Watson.
 
     ![IBM Cloud catalog](assets/catalog.png)
 
-3.  Enter `my-conversation-service` in the field labeled Service name. Click on **Create**.
+3.  Enter `my-assistant-service` in the field labeled Service name. Click on **Create**.
 
     ![Enter Service Name](assets/servicename.png)
 
-4.  Click on the green **Launch tool** button to launch into the Watson Conversation tooling.
+4.  Click on the green **Launch tool** button to launch into the Watson Assistant tooling.
 
     ![Launch Tool](assets/launchtool.png)
 
-5.  This is the Watson Conversation tooling where you can create workspaces and setup different chatbots dialogues and applications. There is an example Cognitive Car Dashboard workspace where you can see a more evolved training. However, we'll create a new workspace for our bot to use. Click on the **Create** button in the box labeled **Create a new workspace**.
+5.  This is the Watson Assistant tooling where you can create workspaces and setup different chatbots dialogues and applications. There is an example Cognitive Car Dashboard workspace where you can see a more evolved training. However, we'll create a new workspace for our bot to use. Click on the **Create** button in the box labeled **Create a new workspace**.
 
     ![Workspaces](assets/workspaces.png)
 
@@ -117,7 +117,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
     ![Create entity](assets/entities.png)
 
-10. The Watson Conversation has a handful of common entities created by IBM that can be used across any use case. These entities include: date, time, currency, percentage, and numbers. **Click on System entities**. Toggle on the switch for `@sys-time`, `@sys-date`, and `@sys-number` to enable the entities.
+10. The Watson Assistant has a handful of common entities created by IBM that can be used across any use case. These entities include: date, time, currency, percentage, and numbers. **Click on System entities**. Toggle on the switch for `@sys-time`, `@sys-date`, and `@sys-number` to enable the entities.
 
     ![Enable System Entities](assets/systementities.png)
 
@@ -165,9 +165,9 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
     ![Respond with confirmation](assets/respond.png)
 
-# Step 3: Test Watson Conversation Service
+# Step 3: Test Watson Assistant Service
 
-The Watson Conversation tooling offers a testing panel to test phrases to confirm the correct intents, entities, and dialog are matched and returned.
+The Watson Assistant tooling offers a testing panel to test phrases to confirm the correct intents, entities, and dialog are matched and returned.
 
 1.  To test the bot, **click on the Ask Watson icon** in the top-right corner of the tooling.    
 
@@ -195,7 +195,7 @@ The Watson Conversation tooling offers a testing panel to test phrases to confir
 
 ## Summary
 
-The Watson Conversation service was able to handle gathering multiple pieces of information, parsing the user input, and placing the values into a context that was used to inject into the response back to the user.
+The Watson Assistant service was able to handle gathering multiple pieces of information, parsing the user input, and placing the values into a context that was used to inject into the response back to the user.
 
 ## License
 
