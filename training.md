@@ -87,9 +87,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
 1.  **Click on the Catalog** link in the top-right corner of the IBM Cloud dashboard.
 
-2.  **Select the Watson Assistant** tile under the section titled Watson.
-
-    ![IBM Cloud catalog](assets/catalog.png)
+2.  **Select the Watson Assistant (formerly Conversation)** tile under the section titled Watson.
 
 3.  Enter `my-assistant-service` in the field labeled Service name. Click on **Create**.
 
@@ -97,7 +95,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
 4.  Click on the blue **Launch tool** button to launch into the Watson Assistant tooling.
 
-5.  This is the Watson Assistant tooling where you can create workspaces and setup different chatbots dialogues and applications. There is an example Cognitive Car Dashboard workspace where you can see a more evolved training. However, we'll create a new workspace for our bot to use. Click on the **Create** button in the box labeled **Create a new workspace**.
+5.  Once on the Watson Assistant tooling, click on the **Workspaces** tab. There is an example Cognitive Car Dashboard workspace where you can see a more evolved training. However, we'll create a new workspace for our bot to use. Click on the **Create** button in the box labeled **Create a new workspace**.
 
     ![Workspaces](assets/workspaces.png)
 
