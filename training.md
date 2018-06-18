@@ -95,9 +95,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
     ![Enter Service Name](assets/servicename.png)
 
-4.  Click on the green **Launch tool** button to launch into the Watson Assistant tooling.
-
-    ![Launch Tool](assets/launchtool.png)
+4.  Click on the blue **Launch tool** button to launch into the Watson Assistant tooling.
 
 5.  This is the Watson Assistant tooling where you can create workspaces and setup different chatbots dialogues and applications. There is an example Cognitive Car Dashboard workspace where you can see a more evolved training. However, we'll create a new workspace for our bot to use. Click on the **Create** button in the box labeled **Create a new workspace**.
 
