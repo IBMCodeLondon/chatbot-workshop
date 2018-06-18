@@ -105,11 +105,11 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
 7.  You will be redirected into a page with three tabs, Intents, Entities, and Dialog. Under the Intents tab, click on **Create new** to create the first intent.
 
-8.  Use the answers you wrote in Step 1 to create the first intent. Click on **Done** when finished.
+8.  Use the answers you wrote in Step 1 or use the ones below to create the first intent. Click on **Done** when finished.
 
     ![Create intent](assets/intents.png)
 
-9.  **Click back and then click on the Entities** tab in the top menu bar. This is where you can add entities. Add the entity you wrote in Step 1. Click **Done** when finished.     
+9.  **Click back and then click on the Entities** tab in the top menu bar. This is where you can add entities. Add the entity you wrote in Step 1 or use the ones below. Click **Done** when finished.     
 
     ![Create entity](assets/entities.png)
 
