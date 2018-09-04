@@ -9,7 +9,7 @@ To complete this workshop you will need:
 
 **Creating your IBM Cloud account**
 
-1. [Sign up for an account here](https://ibm.biz/BdZNSp)
+1. [Sign up for an account here](https://ibm.biz/BdYMsy)
 2. Verify your account by clicking on the link in the email sent to you
 3. Log in to your IBM Cloud account
 
@@ -83,7 +83,7 @@ In the Dialog editor of Watson Assistant, we can now setup logic to step the use
 
 # Step 2: Train Watson Assistant Service
 
-Now that we have designed the first dialogue between the chatbot and the user, we can train the Watson Assistant service. [https://ibm.biz/BdZNSp](Sign up) for an IBM Cloud account. If you already have an account, sign into your account.
+Now that we have designed the first dialogue between the chatbot and the user, we can train the Watson Assistant service. [Sign up](https://ibm.biz/BdYMsy) for an IBM Cloud account. If you already have an account, sign into your account.
 
 1.  **Click on the Catalog** link in the top-right corner of the IBM Cloud dashboard.
 
