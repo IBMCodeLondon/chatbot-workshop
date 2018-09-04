@@ -165,7 +165,7 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
 The Watson Assistant tooling offers a testing panel to test phrases to confirm the correct intents, entities, and dialog are matched and returned.
 
-1.  To test the bot, **click on the Try it** in the top-right corner of the tooling.    
+1.  To test the bot, **click Try it** in the top-right corner of the tooling.    
 
     ![Ask Watson](assets/askwatson2.png)
 
