@@ -83,11 +83,11 @@ In the Dialog editor of Watson Assistant, we can now setup logic to step the use
 
 # Step 2: Train Watson Assistant Service
 
-Now that we have designed the first dialogue between the chatbot and the user, we can train the Watson Assistant service. [Sign up](https://ibm.biz/BdYMsy) for an IBM Cloud account. If you already have an account, sign into your account.
+Now that we have designed the first dialogue between the chatbot and the user, we can train the Watson Assistant service. 
 
 1.  **Click on the Catalog** link in the top-right corner of the IBM Cloud dashboard.
 
-2.  **Select the Watson Assistant (formerly Conversation)** tile under the section titled Watson.
+2.  **Select the Watson Assistant (formerly Conversation)** tile under the category titled AI.
 
 3.  Enter `my-assistant-service` in the field labeled Service name. Click on **Create**.
 
@@ -95,15 +95,11 @@ Now that we have designed the first dialogue between the chatbot and the user, w
 
 4.  Click on the blue **Launch tool** button to launch into the Watson Assistant tooling.
 
-5.  Once on the Watson Assistant tooling, click on the **Workspaces** tab. There is an example workspace where you can see a more evolved training. However, we'll create a new workspace for our bot to use. Click on the **Create** button in the box labeled **Create a new workspace**.
-
-    ![Workspaces](assets/workspaces.png)
+5.  Once on the Watson Assistant tooling, click on the **Skills** tab. We'll create a new skill for our Assistant to use. Click on the **Create new** button.
 
 6.  Enter a name for the chatbot and a description. Click **Create** when finished.
 
-    ![Create workspace](assets/createworkspace.png)
-
-7.  You will be redirected into a page with three tabs, Intents, Entities, and Dialog. Under the Intents tab, click on **Create new** to create the first intent.
+7.  You will be redirected into a page with four tabs, Intents, Entities, Dialog and Content Catalog. Under the Intents tab, click on **Add intent** to create the first intent.
 
 8.  Use the answers you wrote in Step 1 or use the ones below to create the first intent. 
 
